@@ -1,0 +1,44 @@
+23:51:34.175 [main] INFO  com.api.listeners.TestListener - Test suite started!!
+23:51:34.223 [main] INFO  com.api.listeners.TestListener - Started!!loginTest
+23:51:37.056 [main] INFO  com.api.listeners.TestListener - Started!!loginTest
+23:51:37.056 [main] INFO  com.api.listeners.TestListener - Description!!Verify if login API is working...
+23:51:37.088 [main] INFO  com.api.listeners.TestListener - Test suite completed!!
+00:50:15.604 [main] INFO  com.api.listeners.TestListener - Test suite started!!
+00:50:15.652 [main] INFO  com.api.listeners.TestListener - Started!!loginTest
+00:50:17.122 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+00:50:17.123 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+00:50:17.123 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"username":"sonalinikam16","password":"Bluemoon@1611"}
+00:50:18.404 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+00:50:18.404 [main] INFO  com.api.filters.LoggingFilter - Request HEADER:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 30 Dec 2025 13:50:41 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:50:18.447 [main] INFO  com.api.filters.LoggingFilter - Request BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzb25hbGluaWthbTE2IiwiaWF0IjoxNzY3MTAyNjQxLCJleHAiOjE3NjcxMDYyNDF9.lEgSkcrBkc3CPyqPBiqx37djQEewu10V1ej4zjXZSrk",
+    "type": "Bearer",
+    "id": 3485,
+    "username": "sonalinikam16",
+    "email": "sonalinikam16@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:50:18.504 [main] INFO  com.api.listeners.TestListener - Started!!loginTest
+00:50:18.505 [main] INFO  com.api.listeners.TestListener - Description!!Verify if login API is working...
+00:50:18.539 [main] INFO  com.api.listeners.TestListener - Test suite completed!!
