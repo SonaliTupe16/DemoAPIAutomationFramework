@@ -15,7 +15,6 @@ public class UserProfileManagementService extends BaseService {
 
 	public Response updateProfile(String token, ProfileRequest payload) {
 		setAuthToken(token);
-		System.out.println("Hii");
 		return putRequest(payload, BASE_PATH + "/profile");
 	}
 
