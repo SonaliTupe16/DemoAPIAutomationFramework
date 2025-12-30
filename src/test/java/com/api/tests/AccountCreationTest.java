@@ -13,7 +13,7 @@ public class AccountCreationTest {
 	@Test(description = "Verify if login API is working...")
 	public void createAccountTest() {
 
-		SignUpRequest signUpRequest = new SignUpRequest.Builder().userName("Shaarvi110").email("shaarvi10@yahoo.com")
+		SignUpRequest signUpRequest = new SignUpRequest.Builder().userName("Shaarvi1110").email("shaarv1i10@yahoo.com")
 				.firstName("Shaarvi").password("Shaarvi123").lastName("Tupe").mobileNumber("7777777776").build();
 
 		AuthService authService = new AuthService();
