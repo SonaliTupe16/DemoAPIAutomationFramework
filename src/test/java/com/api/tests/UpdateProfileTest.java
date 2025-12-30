@@ -14,9 +14,9 @@ public class UpdateProfileTest {
 
 	AuthService authService = new AuthService();
 	Response response = authService.login(new LoginRequest("sonalinikam16", "Bluemoon@1611"));
-	LoginResponse LoginResponse = response.as(LoginResponse.class);
-
+	LoginResponse loginResponse = response.as(LoginResponse.class);
 	
 	UserProfileManagementService userProfileManagementService = new UserProfileManagementService();
+	userProfileManagementService.getProfile(loginResponse.getToken());
 
 }
