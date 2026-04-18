@@ -145,4 +145,4 @@ GitHub:
 https://github.com/SonaliTupe16
 
 LinkedIn:
-https://www.linkedin.com/sonalitupe
+https://www.linkedin.com/in/sonalitupe
